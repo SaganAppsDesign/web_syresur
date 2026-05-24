@@ -1,0 +1,14 @@
+/* src/App.css – base styles for the Vite+React app */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #111;
+  color: #eee;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
