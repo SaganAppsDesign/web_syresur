@@ -146,7 +146,7 @@ h4 {
   text-transform: uppercase;
   letter-spacing: 0.25em;
   color: var(--accent);
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -324,8 +324,9 @@ h4 {
 .hero {
   min-height: 100dvh;
   display: flex;
-  align-items: center;
-  padding: 8rem 0 4rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12rem 0 4rem;
   position: relative;
 }
 
@@ -1335,7 +1336,7 @@ h4 {
   }
 
   .hero {
-    padding-top: 6rem;
+    padding-top: 10rem;
     min-height: auto;
   }
 
